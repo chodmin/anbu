@@ -36,8 +36,8 @@ public class CustomerControllerTest {
         customerController = new CustomerController(customerService);
         customer = new Customer();
         customer.setDateOfBirth(LocalDate.of(1989, 1, 9));
-        customer.setName("Gustavo");
-        customer.setLastName("Martinez");
+        customer.setName("Jose");
+        customer.setLastName("Aguero");
     }
 
     @Test

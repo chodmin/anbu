@@ -7,16 +7,16 @@ spring:
     console:
       enabled: true
   datasource:
-    url: jdbc:h2:mem:indigital_db
+    url: jdbc:h2:mem:anbu_db
     driver-class-name: org.h2.Driver
     username: jordan
     password: 1234
 
 swagger:
-  basePackage: com.gmartinez.indigital.controller
+  basePackage: com.dev.anbu.controller
   regex: /.*
-  title: Indigital API
-  description: Challenge backend developer
+  title: Dev Backend API
+  description: Dev backend kpi
   version: 1.0.0
 
 statistics:
